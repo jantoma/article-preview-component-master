@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Meta tags for responsive design and SEO -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Favicon link -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!-- CSS file link -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/mediaQuery.css">
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet" />
+
+  <!-- Page title -->
+  <title>Frontend Mentor | Article preview component</title>
+</head>
+
+<body>
+  <!-- Article preview component -->
+  <article class="card">
+    <!-- Article image -->
+    <div class="image-box">
+      <img src="images/drawers.jpg" alt="Drawers Image">
+    </div>
+    <!-- Article content -->
+    <div class="content">
+      <h1>
+        Shift the overall look and feel by adding these wonderful touches to
+        furniture in your home
+      </h1>
+      <p>
+        Ever been in a room and felt like something was missing? Perhaps it
+        felt slightly bare and uninviting. I’ve got some simple tips to help
+        you make any room feel complete.
+      </p>
+      <div class="info">
+        <!-- Author info -->
+        <div class="author">
+          <div class="image-author">
+            <img src="images/avatar-michelle.jpg" alt="Michelle Appleton's Photo">
+          </div>
+          <!-- Author name and publication date -->
+          <div class="title-author">
+            <span>Michelle Appleton </span>
+            <time datetime="2020-06-28">28 Jun 2020</time>
+          </div>
+        </div>
+        <!-- Share button -->
+        <div class="tooltip" id="social-media">
+          <p class="tooltip-text">share</p>
+          <ul class="tooltip-topics">
+            <li><a href=" #"><img src="images/icon-facebook.svg" alt="Share on Facebook" /></a></li>
+            <li><a href="#"></a><img src="images/icon-twitter.svg" alt="Share on  Twitter" /></a></li>
+            <li><a href="#"></a><img src="images/icon-pinterest.svg" alt="Share on Pinterset" /></a></li>
+          </ul>
+        </div>
+        <button id="shareButton" class="share-button" onclick="shareIcons()">
+          <img src="images/icon-share.svg" alt="Share article" />
+        </button>
+        <!-- End Share button -->
+      </div>
+    </div>
+
+  </article>
+  <!-- Footer -->
+  <footer>
+    <!-- Attribution -->
+    <div class="attribution">
+      Challenge by
+      <!-- Frontend Mentor link -->
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a
+        href="#">Your Name Here</a>.
+    </div>
+  </footer>
+
+  <!-- JavaScript file link -->
+  <script src="js/index.js"></script>
+</body>
+
+</html>
